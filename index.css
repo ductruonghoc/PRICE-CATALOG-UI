@@ -3,19 +3,81 @@ body {
     padding: 0;
     width: 100vw;
     min-height: 100vh;
+    font-family: 'Roboto', sans-serif;
     overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+button {
+    background-color: inherit;
+    outline: none;
+    border: 0;
 }
 
 .container {
-    width: calc(100vh * 9 / 20);
+    width: calc(100vh * 360 / 800);
     min-height: 100vh;
     background-color: #E3E0D2;
-    overflow-y: hidden;
-    overflow-x: scroll;
-    grid-template-rows: calc(100vh * 43 / 400) calc(100vh * 19 / 200) auto;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    grid-template-rows: calc(100vh * 43 / 400) calc(100vh * 46 / 800) calc(100vh * 75 / 800) auto;
 }
 
 .title {
-    
+    grid-area: 1/ 1/ 2 /2;
+    width: 100%;
+    height: calc(100% - 15 / 800 * 100vh);
+    font-size: clamp(10px, 11vh , 30px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+    margin-top: calc(15 / 800 * 100vh);
+    font-weight: 500;
+    overflow: hidden;
+}
+
+.searchArea {
+    grid-area: 2/ 1/ 3/ 2;
+    width: 100%;
+    height: calc(100% - 15 / 800 * 100vh);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+    margin-top: calc(15 / 800 * 100vh);
+}
+
+.searchBar {
+    width: calc(100% * 316 / 360);
+    height: 100%;
+    background-color: #FFFFF0;
+    margin: 0;
+    padding: calc(100vh * 12 / 800) calc(100% * 30 / 360) calc(100vh * 12 / 800) calc(100% * 21 / 360);
+    border: 2px solid #000; /* Add a border */
+    border-radius: 20px;
+}
+
+.searchArea button {
+    position: absolute;
+    margin-left: calc(100% * 60 / 360);
+    color: grey; 
+}
+
+.typeFilterArea{
+    grid-area: 3/ 1/ 4/ 2;
+    width: 80%;
+    height: calc(60 / 800 * 100vh);
+    overflow-x: scroll;
+    overflow-y: hidden;
+    scrollbar-width: none;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: calc(15 / 800 * 100vh);
 }
 
