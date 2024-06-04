@@ -1,0 +1,21 @@
+body {
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    min-height: 100vh;
+    overflow: hidden;
+}
+
+.container {
+    width: calc(100vh * 9 / 20);
+    min-height: 100vh;
+    background-color: #E3E0D2;
+    overflow-y: hidden;
+    overflow-x: scroll;
+    grid-template-rows: calc(100vh * 43 / 400) calc(100vh * 19 / 200) auto;
+}
+
+.title {
+    
+}
+
