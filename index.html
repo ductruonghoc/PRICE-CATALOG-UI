@@ -19,21 +19,21 @@
             <div>BÁO GIÁ</div>
         </div>
         <div class="searchArea">
-            <input class="searchBar" type="text">
-            <button>x</button>
+            <input class="searchBar" type="text" id="searchBar">
+            <button onclick="inputClear(this.id)" id="searchBarB">x</button>
         </div>
-        <div class="typeFilterArea">
+        <div class="typeFilterArea" id="typeFilterArea">
             <div class="content">
                 <div class="item">
-                    <input type="checkbox">
+                    <input type="checkbox" value ="HEO" id="typeCheck1">
                     <p>Heo</p>
                 </div>
                 <div class="item">
-                    <input type="checkbox">
+                    <input type="checkbox" value="BÒ" id="typeCheck2">
                     <p>Bò</p>
                 </div>
                 <div class="item">
-                    <input type="checkbox">
+                    <input type="checkbox" value="GÀ" id="typeCheck3">
                     <p>Gà</p>
                 </div>
             </div>
@@ -45,10 +45,11 @@
             </select>
         </div>
         <div class="catalog" id="catalog">
-            
         </div>
     </div>
-    <script src="viewAdd.js"></script>
     <script src="item.js"></script>
+    <script src="filter.js"></script>
+    <script src="catalog.js"></script>
     <script src="index.js"></script>
+    <script src="listener.js"></script>
 </body>

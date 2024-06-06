@@ -1,4 +1,6 @@
-function addItem(i)
+const catalog = document.getElementById("catalog")
+
+function cAddItem(i)
 {
     catalog.innerHTML 
     += "<div class='item'><div class='image'> <img src='"
@@ -10,4 +12,9 @@ function addItem(i)
     + "</h1><p>"
     + i["price"]
     + "</p></div>"
+}
+
+function cClear()
+{
+    catalog.innerHTML = ""
 }

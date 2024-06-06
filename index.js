@@ -1,8 +1,15 @@
 function init()
 {
-    product.forEach(element => {
+    update(product)
+}
+
+function update(action)
+{
+    cClear()
+
+    action.forEach(element => {
         element["products"].forEach(e => {
-            addItem(e)
+            cAddItem(e)
         })
     });
 }
