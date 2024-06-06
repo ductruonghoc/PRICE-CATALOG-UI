@@ -27,12 +27,81 @@ const product = [
                 "name": "BA CHỈ HEO",
                 "price": 87000,
                 "image": ""
-            },{
+            },
+            {
                 "digit": "KG",
                 "name": "HEO RỪNG",
                 "price": 85000,
                 "image": ""
             },
+        ] 
+    },
+    { 
+        "type": "BO",
+        "products":
+        [
+            {
+                "digit": "KG",
+                "name": "BA CHỈ BÒ",
+                "price": 205000,
+                "image": ""
+            },
+            {
+                "digit": "KG",
+                "name": "BÒ PHI LÊ",
+                "price": 150000,
+                "image": ""
+            }
+            ,
+            {
+                "digit": "KG",
+                "name": "BÒ TẢNG",
+                "price": 110000,
+                "image": ""
+            },
+            {
+                "digit": "KG",
+                "name": "BẮP BÒ",
+                "price": 93000,
+                "image": ""
+            },
+            {
+                "digit": "KG",
+                "name": "NẠM BÒ",
+                "price": 93000,
+                "image": ""
+            },
+        ] 
+    },
+    { 
+        "type": "GA",
+        "products":
+        [
+            {
+                "digit": "KG",
+                "name": "CHÂN GÀ RÚT XƯƠNG",
+                "price": 97000,
+                "image": ""
+            },
+            {
+                "digit": "KG",
+                "name": "CÁNH GÀ GIỮA",
+                "price": 89000,
+                "image": ""
+            }
+            ,
+            {
+                "digit": "KG",
+                "name": "PHI LÊ NAI",
+                "price": 83000,
+                "image": ""
+            },
+            {
+                "digit": "KG",
+                "name": "LƯỜN NGỖNG",
+                "price": 104000,
+                "image": ""
+            }
         ] 
     }
 ]
